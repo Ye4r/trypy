@@ -2,6 +2,7 @@
 
 """
 about send something, by Ye4r
+github:https://github.com/Ye4r/trypy/edit/main/sendsome.py
 """
 
 import requests
