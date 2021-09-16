@@ -13,6 +13,11 @@ import re
 
 url = str(input("请输入url:"))
 
+if url.endswith('/'):
+    url = url.strip('/')
+else:
+    pass
+
 
 def rtxt(txt):
     with open(txt, 'r', encoding='utf-8') as f:
